@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat</title>
+        <script type="text/javascript" src="{{ url_for('static', path='js/stomp.min.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', path='js/sockjs.min.js') }}"></script>
+    </head>
+    <body>
+        <h1>WebSocket Chat</h1>
+        <form action="" onsubmit="sendMessage(event)">
+            <input type="text" id="messageText" autocomplete="off"/>
+            <button>Send</button>
+        </form>
+        <ul id='messages'>
+        </ul>
+        <script type="text/javascript" src="{{ url_for('static', path='js/websocket_client.js') }}"></script>
+    </body>
+</html>
