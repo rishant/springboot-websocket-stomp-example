@@ -36,17 +36,17 @@ public class WebSocketController {
 	@MessageMapping("/public/message")
 	private void sendPublicMessage(SimpMessageHeaderAccessor headerAccessor, @Payload String message)
 			throws JsonProcessingException {
-		logger.info("Private message request.");
+		logger.info("Public message request.");
 		@SuppressWarnings("unchecked")
 		Map<String, Object> messageObject = objectMapper.readValue(message, Map.class);
-		messagingTemplate.convertAndSend("/topic/public/message", messageObject.get("name"));
+		messagingTemplate.convertAndSend("/topic/public/message", messageObject);
 	}
 
 	// /app/private/{id}/message
 	@MessageMapping("/private/{id}/message")
 	private void sendPrivateMessage(SimpMessageHeaderAccessor headerAccessor, @DestinationVariable("id") String id,
 			@Payload String message) throws JsonProcessingException {
-		logger.info("Public message request.");
+		logger.info("Private message request.");
 //		String sessionId = headerAccessor.getSessionAttributes().get("sessionId").toString();
 //		System.out.println(sessionId);
 //		headerAccessor.setSessionId(sessionId);

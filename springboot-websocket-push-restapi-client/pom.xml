@@ -27,6 +27,12 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+		
+		<!-- <dependency>
+			<groupId>io.ably</groupId>
+			<artifactId>ably-java</artifactId>
+			<version>1.2.3</version>
+		</dependency> -->
 
 		<dependency>
 			<groupId>org.springdoc</groupId>

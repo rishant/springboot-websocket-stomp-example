@@ -1,8 +1,3 @@
-# Video References:
-[![SC2 Video](https://img.youtube.com/vi/o_IjEDAuo8Y/0.jpg)](https://www.youtube.com/watch?v=o_IjEDAuo8Y&t=538s)
-[![SC2 Video](https://img.youtube.com/vi/XY5CUuE6VOk/0.jpg)](https://www.youtube.com/watch?v=XY5CUuE6VOk&list=PLXy8DQl3058PNFvxOgb5k52Det1DGLWBW)
-
-
 Publish:
 - HomeController: /
 - WebSocketController: /app/*
