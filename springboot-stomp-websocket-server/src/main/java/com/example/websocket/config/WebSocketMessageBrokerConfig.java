@@ -35,7 +35,7 @@ public class WebSocketMessageBrokerConfig implements WebSocketMessageBrokerConfi
 		//registry.setPathMatcher(new AntPathMatcher("."));
 		
 		// MessageBroker Routing key's
-		registry.enableSimpleBroker("/queue/", "/topic/");
+		registry.enableSimpleBroker("/queue/", "/topic/", "/chatroom/");
 		
 		// WebSocket Controller handler routing key's
 		registry.setApplicationDestinationPrefixes("/app");
