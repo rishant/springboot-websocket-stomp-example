@@ -35,4 +35,19 @@ npm init
 > npm run dev
 > ```
 
-## Step : 7 - Added WebSocket[Socket.io] dependency
+## Step : 7 - Added WebSocket[Socket.io] dependency on NodeJS Server
+> ```
+> npm install socket.io
+> ```
+
+
+| Send Client event to Server | Take Client event from Server |
+| -------------------- | ---------------------- |
+| socket.emit          | socket.on |
+
+| Send Server Event to Client | Take Event from Client |
+| --------------- | ------------- |
+| io.emit <br/> io.to(socketId).emit | socket.on  |
+
+https://www.youtube.com/watch?v=jD7FnbI76Hg
+https://www.youtube.com/watch?v=otaQKODEUFs&t=13221s
