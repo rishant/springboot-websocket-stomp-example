@@ -52,5 +52,6 @@ Springboot sample code for 2 way communicate via WebSocket over STOMP (Pub/Sub) 
 > ## Java Springboot Websocket with Redis:
 > [![SC2 Video](https://img.youtube.com/vi/3mk5SvV4mzI/0.jpg)](https://www.youtube.com/watch?v=3mk5SvV4mzI)
 > [![SC2 Video](https://img.youtube.com/vi/1LIyqHsum2g/0.jpg)](https://www.youtube.com/watch?v=1LIyqHsum2g)
+> [![SC2 Video](https://img.youtube.com/vi/73Utd7nDYDs/0.jpg)](https://www.youtube.com/watch?v=73Utd7nDYDs)
 > 
 > https://github.com/anshriva/redis-web-sockets-chat
