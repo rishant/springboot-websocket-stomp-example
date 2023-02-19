@@ -48,3 +48,9 @@ Springboot sample code for 2 way communicate via WebSocket over STOMP (Pub/Sub) 
 > ## Whatsapp chat-app clone MERN (MongoDB + ExpressJS + ReactJS + NodeJS)
 > [![SC2 Video](https://img.youtube.com/vi/UBFs84OQrko/0.jpg)](https://www.youtube.com/watch?v=UBFs84OQrko&list=PLStdkmnF3FJVW-Xat9K4i4SqvXT4E7I2g&index=1)
 > [![SC2 Video](https://img.youtube.com/vi/d2_bcbUbCtc/0.jpg)](https://www.youtube.com/watch?v=d2_bcbUbCtc&t=16535s)
+
+> ## Java Springboot Websocket with Redis:
+> [![SC2 Video](https://img.youtube.com/vi/3mk5SvV4mzI/0.jpg)](https://www.youtube.com/watch?v=3mk5SvV4mzI)
+> [![SC2 Video](https://img.youtube.com/vi/1LIyqHsum2g/0.jpg)](https://www.youtube.com/watch?v=1LIyqHsum2g)
+> 
+> https://github.com/anshriva/redis-web-sockets-chat
